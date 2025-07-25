@@ -5,17 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Market</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="noto-serif-normal">
 
     <header>
+        <nav class="flex justify-around lg:justify-between items-center min-w-sm max-w-7xl mx-auto m-5">
+            <img class="lg:w-34 lg:h-20 md:w-34 md-h-20 w-16 h-10" src="assets/logo.png" alt="">
+            <ul class="flex justify-center gap-10">
+                <li class="li-hidden font-semibold text-(--normal) hover:text-(--active) active:text-(--active)"><a href="#">Home</a></li>
+                <li class="li-hidden font-semibold text-(--normal) hover:text-(--active) active:text-(--active)"><a href="#">Shop</a></li>
+                <li class="li-hidden font-semibold text-(--normal) hover:text-(--active) active:text-(--active)"><a href="#">About Us</a></li>
+                <li class="font-semibold text-(--active)"><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+            </ul>
+        </nav>
+        <section class="hero my-30 flex justify-around items-end max-w-7xl mx-auto ">
+            <div class="hero-content lg:w-[570px]">
+                <h2 class="lg:text-6xl md:text-5xl text-3xl my-3.5">ALWAYS <span class="text-(--orange)">FRESH FLOWERS</span></h2>
+                <p class="lg:text-[22px] text-[14px] text-(--des) font-normal">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img class="hero-img" src="assets/hero-flower.png" alt="">
+
+        </section>
 
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
     
 </body>
